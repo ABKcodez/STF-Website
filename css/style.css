@@ -59,6 +59,7 @@
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .search_bar
 {
@@ -69,6 +70,7 @@
     padding: 0 0 0 20px;
     border-radius: 40px;
     font-size: 16px;
+    width: 90%;
 }
 
 .search_bar::placeholder
@@ -221,7 +223,7 @@
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    height: 350px;
+    height: fit-content;
 }
 
 .main_content
